@@ -1,2 +1,3 @@
 # design-pattern-in-typescript
-设计模式
+
+使用TypeScript介绍23种设计模式
