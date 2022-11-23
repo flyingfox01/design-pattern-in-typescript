@@ -10,12 +10,13 @@ class ComputerFactory {
    * @param builder 
    */
   public buildComputer(builder: Builder): Computer {
-    builder.setupMainBoard();
-    builder.setupCPU();
-    builder.setupHardDisk();
-    builder.setupMemory();
-    builder.setupVideoCard();
-    return builder.build()
+    return builder
+      .setupMainBoard()
+      .setupCPU()
+      .setupHardDisk()
+      .setupMemory()
+      .setupVideoCard()
+      .build()
   }
 
 }
