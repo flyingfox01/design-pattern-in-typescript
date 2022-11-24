@@ -10,7 +10,7 @@ const personalComputer = factory.buildComputer(personalBuilder)
 const officeComputer = factory.buildComputer(officeBuilder);
 
 describe("buider", () => {
-    it("build pc cumputer", () => {
+    it("build computer", () => {
         expect(personalComputer.getSystemInfo()).toContain('我的显卡');
         expect(officeComputer.getSystemInfo()).toContain('公司的显卡');
     })
