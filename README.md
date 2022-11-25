@@ -15,4 +15,4 @@
 
 - runoob https://www.runoob.com/design-pattern/design-pattern-tutorial.html
 - 图解设计模式 https://design-patterns.readthedocs.io/zh_CN/latest/structural_patterns/structural.html
-- 设计模式 https://www.cnblogs.com/cnwp007/articles/15507157.html#jT464cBT
+- 可理解的设计模式 https://www.cnblogs.com/cnwp007/articles/15507157.html#jT464cBT
