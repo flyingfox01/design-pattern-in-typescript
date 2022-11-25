@@ -1,5 +1,4 @@
 import { DogFactory, CatFactory } from '../src/AbstractFactory/Factory';
-import { Pet, Food } from '../src/AbstractFactory/Product';
 
 const item1 = new DogFactory()
 const item2 = new CatFactory()
