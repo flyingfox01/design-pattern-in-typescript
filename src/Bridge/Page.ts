@@ -12,7 +12,7 @@ export class AboutPage implements WebPage {
     this.theme = _;
   }
 
-  public getContent() {
+  public getContent(): string {
     return "About page in " + this.theme.getColor();
   }
 }
@@ -24,7 +24,7 @@ export class DetialPage implements WebPage {
     this.theme = _;
   }
 
-  public getContent() {
+  public getContent(): string {
     return "Detial page in " + this.theme.getColor();
   }
 }
