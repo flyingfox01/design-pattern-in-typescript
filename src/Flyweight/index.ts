@@ -42,14 +42,14 @@ export abstract class NetworkDevice {
 /**
  * 交换机
  */
-class Switch extends NetworkDevice {
+export class Switch extends NetworkDevice {
   type: string = 'Switch'
 }
 
 /**
  * 集线器
  */
-class Hub extends NetworkDevice {
+export class Hub extends NetworkDevice {
   type: string = 'Hub'
 }
 
