@@ -5,13 +5,13 @@ export class EditorMemento {
     this.content = content;
   }
 
-  public getContent() {
+  public getContent(): string {
     return this.content;
   }
 }
 
 export class Editor {
-  protected content = '';
+  protected content: string = '';
 
   public type(words: string) {
     this.content += words;
@@ -29,4 +29,3 @@ export class Editor {
     this.content = memento.getContent();
   }
 }
-
